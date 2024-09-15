@@ -26,7 +26,7 @@ public class SpecialWordFinder {
             // Check if the word has an uppercase letter
             boolean hasUppercase = false;
             for (int i = 0; i < w.length(); i++) {
-                if (Character.isUpperCase(w.charAt(i))) {
+                if (Character.isUpperCase(w.charAt(i))) {     //charAt() method in Java is used to retrieve the character at a specific index within a string.
                     hasUppercase = true;
                     break;
                 }
